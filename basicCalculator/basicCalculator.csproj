@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Addition\Addition.csproj" />
+    <ProjectReference Include="..\Division\Division.csproj" />
+    <ProjectReference Include="..\Exponentiation\Exponentiation.csproj" />
+    <ProjectReference Include="..\Logarithm\Logarithm.csproj" />
+    <ProjectReference Include="..\MathOperations\MathOperations.csproj" />
+    <ProjectReference Include="..\Multiplication\Multiplication.csproj" />
+    <ProjectReference Include="..\Root\Root.csproj" />
+    <ProjectReference Include="..\Subtraction\Subtraction.csproj" />
+  </ItemGroup>
+
+</Project>
